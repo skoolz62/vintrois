@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A propos de nous ! </title>
+    <link rel="stylesheet" href="stylespirit.css">
+    <link rel="stylesheet" href="verif.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta name="description" content="A propos de nous et de notre magasin ! Découvrez la ou tout a commencer ! ">
+    <meta name="keywords" content="magasin, polonais, e-commerce, local, spécialité, divers">
+</head>
+<body>
+    <header class="top-bar">
+        <nav>
+            <a href="#" class="alim">Alimentaire</a>
+            <a href="#" class="souvenir">Souvenirs</a>
+            <a href="#" class="spiritueux">Spiritueux</a>
+            <a href="#" class="blog">Blog</a>
+        </nav>
+        <nav>
+        <div class="social">
+                <button class="lang button" onclick="changeLanguage('fr')"><img src="img/icofr.png" alt="Traduction Française" title="Traduction Française" class="button-flag"></button>
+                <button class="lang button" onclick="changeLanguage('en')"><img src="img/icoengl.png" alt="Traduction Anglaise" title="Traduction Anglaise" class="button-flag"></button>
+                <button class="lang button" onclick="changeLanguage('pl')"><img src="img/icopolo.png" alt="Traduction Polonaise" title="Traduction Polonaise" class="button-flag"></button>
+        </div>
+        </nav>
+    </header>
+<div class="banniere">
+    <img src="img/logo.png" alt="Logo du site" class="logo-banner">
+</div>
+<div id="conteneur">
+        
+        <div class="manip">
+            <div class="title">
+                <a href="#">Spirytus</a>
+            </div>
+        </div>
+        
+        <div class="manip2">
+            <div class="title">
+                <a href="#">Dwojniak</a>
+            </div>
+        </div>
+        <div class="manip3">
+            <div class="title">
+                <a href="#">Poltorak</a>
+            </div>
+        </div>
+    </div> 
+    <div id="conteneur1">
+
+        <div class="man1">
+            <div class="title">
+                <a href="#">advocaat</a>
+            </div>
+        </div>
+    
+        <div class="man2">
+            <div class="title">
+                <a href="#">tsykie</a>
+            </div>
+        </div>
+
+        <div class="man3">
+            <div class="title">
+                <a href="#">Okocim</a>
+            </div>
+        </div>
+    </div>
+    <div id="conteneur3">
+        <div class="ma1">
+            <div class="title">
+                <a href="#">Zubr</a>
+            </div>
+        </div>
+        <div class="ma2">
+            <div class="title">
+                <a href="#">Soplica</a>
+            </div>
+        </div>
+        <div class="ma3">
+            <div class="title">
+                <a href="#">Wiśniówka</a>
+            </div>
+        </div>
+    </div>
+
+
+<br>
+<button id="myBtn">Allez au panier</button> 
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="login">
+                
+                <div class="login-triangle"></div>   
+                
+                <h2 class="login-header">Vérification âge</h2>
+                        <form class="login-container">
+                            <p>Quel âge tu as ? <input type="number" class="age" name="age" placeholder="19" required/></p>
+                            <button type="button" onclick="enter()" on class="login-button">Voir mon panier</button>
+                        </form>
+            </div>
+    </div>
+</div>
+
+<script src="verification.js"></script>
+<script src="lang.js"></script>
+<script src="language.js"></script>
+</body>
+</html>
